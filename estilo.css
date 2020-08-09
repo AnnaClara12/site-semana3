@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap');
+
+html, body { margin: 0; }
+
+header { background-color: #87CEEB ;
+         height: 78px;
+         position: fixed;
+         width: 100%;
+         z-index: 10; }
+   
+#logo {  width: 150px;
+         position: absolute;
+         top: 10px;
+         margin-left: 5% ; }
+
+#menu {  float: right;
+         margin-right: 5%; 
+         list-style: none;
+         margin-top: 10px; }
+
+li { float: left;
+     padding: 20 10 20 10; }
+   
+li:hover { background-color: white;}
+
+#imagem_fundo { background: url(fundo.jpg);
+                height: 100%;
+                text-align: center;
+                background-size: cover; }
+
+#titulo { font-family:  'Merriweather Sans', sans-serif;
+          color:white;
+          padding-top: 20%;
+          font-size: 65px; }
+
+#subtitulo { color:white;
+             padding-right: 20%;
+             padding-left: 20%;
+             font-size: 30px; }
+
+#acao { color: white;
+        border: 1px white solid;
+        padding: 10px 10px 10px 10px; }
+
+.icone { width: 51px; }
+
+
+section { padding: 20px;
+          float: left; }
+
+.destaque { background-color:#87CEEB;	  }
+
+.imgeco { width: 90%;
+          height: 35%; }
+
+.justificado { text-align: justify; }
+
+.centralizado {  text-align: center; }
+
+.coluna { float: left;
+          padding: 0 5%;
+          position: relative;
+          width: 40%; }
+
+.dois { width: 40%; }
+
+.quatro {  width: 15%;
+           float: left;
+           padding: 0 5%;
+           position: relative; }
+
+.tres { width: 29%; 
+        padding: 0 2%;
+        position: relative;
+        float: left; }
+
+footer { background-color:#87CEEB	 ;
+         float: left;
+         width: 100%;
+         height: 30%;
+         color:black; }
+
+@media all and (max-width: 768px) {
+#menu { visibility: hidden; }
+.coluna, .dois, .tres, .quatro { display: block;
+                                 width: 100%; 
+                                 padding: 0;
+                                 margin: 20px auto;
+                                 float: none; }
+
+#logodiv { width: 100%;
+           position: relative;
+           text-align: center;
+           padding: 0px;}
+
+#logo { margin-left: 0px;
+        transform: translateX(-50%); }
+                                                   
+
+
+
+
+
+
+
+
+
+
+
